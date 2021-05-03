@@ -25,7 +25,7 @@ interface options {
   zoomMax?: number
 }
 
-declare module '@josepaiva94/svg.js' {
+declare module '@svgdotjs/svg.js' {
   interface Svg {
     panZoom(options?: options | false): this
   }
